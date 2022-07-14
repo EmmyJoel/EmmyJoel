@@ -65,6 +65,9 @@ a:link {
 	background-color: transparent;
 	text-decoration: none;
 }
+a:active{color: cyan;
+	background-color: transparent;
+	text-decoration: none;}
 
 a:hover {
 	color: green;
@@ -103,7 +106,13 @@ hr {
 	border-radius: 4px;
 	padding: 5px;
 }
-
+.others p > a:active{color: black;
+	background-color: darkseagreen;
+	font-weight: bold;
+	font-size: 22px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	padding: 5px;}
 .others p {
 	padding: 3px;
 }
@@ -297,12 +306,17 @@ footer>p {
 	.others p > a:link {
 		font-size: 12px;
 		font-weight:bold;
-		color: yellow;
-		background-color: black;
-	}
-	.others p > a:hover {
-		color:black;
+		color: black;
 		background-color: yellow;
+	}
+	.others p > a:active {
+		font-size: 12px;
+		font-weight:bold;
+		color: black;
+		background-color: yellow;}
+	.others p > a:hover {
+		color:yellow;
+		background-color: black;
 	}
 }
 
@@ -326,8 +340,6 @@ footer>p {
 	.work {
 		padding: 40px;
 	}
-	.others {width: 450px:}
-	img {width:250px;}
 }
 
 #comment {
