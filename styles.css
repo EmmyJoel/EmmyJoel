@@ -297,12 +297,12 @@ footer>p {
 	.others p > a:link {
 		font-size: 12px;
 		font-weight:bold;
-		color: black;
-		background-color: yellow;
+		color: yellow;
+		background-color: black;
 	}
 	.others p > a:hover {
-		color:yellow;
-		background-color: black;
+		color:black;
+		background-color: yellow;
 	}
 }
 
@@ -326,6 +326,8 @@ footer>p {
 	.work {
 		padding: 40px;
 	}
+	.others {width: 450px:}
+	img {width:250px;}
 }
 
 #comment {
