@@ -313,6 +313,9 @@ footer>p {
 		color: white;
 		background-color: black;
 	}
+	.others p>a:hover {
+		color: black;
+		background-color: yellow;
 }
 
 @media only screen and (min-width:800px) {
