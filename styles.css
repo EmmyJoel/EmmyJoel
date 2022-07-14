@@ -118,7 +118,7 @@ hr {
 	color: black;
 	background-color: yellow;
 }
-.others p > a:visited {color:red;}
+/*.others p > a:visited {color:red;} this was giving me some issues' was giving the element a border and color of red */
 .others button {
 	font-size: 17px;
 	font-style:oblique;
