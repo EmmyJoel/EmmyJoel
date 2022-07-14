@@ -101,7 +101,7 @@ hr {
 }
 
 .others p > a:link {
-	color: white;
+	color: black;
 	background-color: darkseagreen;
 	font-weight: bold;
 	font-size: 22px;
@@ -115,12 +115,12 @@ hr {
 }
 
 .others a:visited {
-	color: black;
+	color: red;
 }
 
 .others p > a:hover {
-	color: gold;
-	background-color: cyan;
+	color: black;
+	background-color: yellow;
 }
 
 .others button {
@@ -142,15 +142,6 @@ hr {
 	box-shadow: 0 8px 7px -3px rgba(0, 0, 0, 0.6)
 }
 
-.others button:after {
-	content: '>>';
-	opacity: 0;
-	top: 5px;
-	right: -22px;
-	transition: 0.1s;
-	position: absolute;
-}
-
 .others button {
 	cursor: pointer;
 	display: inline-block;
@@ -164,11 +155,6 @@ hr {
 	opacity: 1;
 	border: 1px solid black;
 	color: rgba(100, 30, 150, 1);
-}
-
-.others button:hover:after {
-	opacity: 1;
-	right: 2px;
 }
 
 .last-monitor {
@@ -343,7 +329,7 @@ footer>p {
 	}
 }
 
-.form textarea {
+.form > textarea {
 	width: 80%;
 	margin: 3px;
 }
