@@ -209,10 +209,9 @@ header {
 }
 .others p>a:link {
 	font-size: 12px;}
-.others>img {
+img {
 	width: 300px;
 }
-img {width:auto}
 
 .others p > a:link {
 	font-size: 12px;
