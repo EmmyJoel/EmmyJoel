@@ -21,8 +21,8 @@ h1 {
 img {
 	display: block;
 	margin: auto;
-	height: 150px;
-	width: 220px;
+	height: 160px;
+	width: 240px;
 	filter: drop-shadow(2px 3px 2px #eeefff);
 }
 
@@ -209,7 +209,7 @@ header {
 }
 .others p>a:link {
 	font-size: 12px;}
-.others > img {
+.others>a>img {
 	width: 200px;
 }
 
