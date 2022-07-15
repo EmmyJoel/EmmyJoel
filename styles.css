@@ -207,7 +207,30 @@ header {
 	margin:4px;}
 .head>li:hover {font-size:13px;}
 }
+.others p>a:link {
+	font-size: 12px;}
+img {
+	width: 300px;
+}
 
+.others p > a:link {
+	font-size: 12px;
+	font-weight:bold;
+	color: black;
+	background-color: yellow;
+}
+.others p > a:active {
+	font-size: 12px;
+	font-weight:bold;
+	color: black;
+	background-color: yellow;}
+.others p > a:hover {
+	color:yellow;
+	background-color: black;
+}
+.last-monitor {
+	font-size: 10px;
+}
 .others button {font-size: 15px;
 		width: auto;
 	}
@@ -282,8 +305,9 @@ header {
 }
 
 #monitor {
-	width: 100%;
+	width: 90%;
 	border: 1px solid black;
+	margin:0 3px 0 0;
 }
 
 footer > p {
@@ -299,30 +323,7 @@ footer > p {
 	.others button {
 		font-size: 18px;
 	}
-	.others p>a:link {
-		font-size: 12px;
-	img {
-		width: auto;
-	}
-
-	.others p > a:link {
-		font-size: 12px;
-		font-weight:bold;
-		color: black;
-		background-color: yellow;
-	}
-	.others p > a:active {
-		font-size: 12px;
-		font-weight:bold;
-		color: black;
-		background-color: yellow;}
-	.others p > a:hover {
-		color:yellow;
-		background-color: black;
-	}
-	.last-monitor {
-		font-size: 10px;
-	}
+	
 }
 
 @media (min-width:800px) {
@@ -350,8 +351,4 @@ footer > p {
 	border: 2px solid black;
 	border-radius: 5px;
 	font-size: 16px;
-}
-#form > textarea {
-	width: 80%;
-	margin: auto;
 }
