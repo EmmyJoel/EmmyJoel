@@ -201,7 +201,7 @@ header {
 	font-weight: bold;
 	text-align: center;
 }
-@media only screen and (max-width:400px) {
+@media (max-width:390px) {
 .head > li{font-size: 12px;
 	height: 15px;
 	margin:4px;}
@@ -286,7 +286,7 @@ header {
 	border: 1px solid black;
 }
 
-footer>p {
+footer > p {
 	text-align: center;
 	font-size: 11px;
 	display: inline-block;
@@ -295,11 +295,12 @@ footer>p {
 	width: 50%;
 }
 
-@media only screen and (max-width:600px) {
+@media (min-width:400px) and (max-width:790px) {
 	.others button {
 		font-size: 18px;
 	}
-
+	.others p>a:link {
+		font-size: 12px;
 	img {
 		width: auto;
 	}
@@ -319,27 +320,24 @@ footer>p {
 		color:yellow;
 		background-color: black;
 	}
+	.last-monitor {
+		font-size: 10px;
+	}
 }
 
-@media only screen and (min-width:800px) {
+@media (min-width:800px) {
 	.others {
 		width: 450px;
 	}
-}
-
-.last-monitor {
-	font-size: 10px;
-}
-
-@media only screen and (min-width:500px) {
-	.others p>a:link {
-		font-size: 12px;
+	img {width:auto;
 	}
 }
 
-@media only screen and (min-width:1000px) {
+@media (min-width:1200px) {
 	.work {
 		padding: 40px;
+	}
+	.others {width:500px;
 	}
 }
 
