@@ -122,7 +122,7 @@ hr {
 	color: black;
 	background-color: yellow;
 }
-/*.others p > a:visited {color:red;} this was giving me some issues' was giving the element a border and color of red */
+/*.others p > a:visited {color:red;} this was giving me some issues' was giving the element a border and color of red on a particular browser. */
 .others button {
 	font-size: 17px;
 	font-style:oblique;
@@ -351,7 +351,7 @@ footer > p {
 	border-radius: 5px;
 	font-size: 16px;
 }
-.form > textarea {
+#form > textarea {
 	width: 80%;
-	margin: 3px;
+	margin: auto;
 }
